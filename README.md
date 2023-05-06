@@ -1,6 +1,6 @@
 # JUniteTest
 
-1. Sections to write test class logics.
+1. Sections to write test class logics. \n
     a. Arrange (Given) :  Prepare and Analyze all the needed variables and objects
     b. Act (When) : Actual invoke the method which we need to test
     c. Assert (Then) : Validate the return value received from method under test
