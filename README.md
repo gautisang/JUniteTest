@@ -5,7 +5,7 @@
     b. Act (When) : Actual invoke the method which we need to test<br>
     c. Assert (Then) : Validate the return value received from method under test<br>
 
-2. #### Life cycle for test class
+2. Life cycle for test class
 
        ![img.png](img.png)
 
