@@ -12,6 +12,6 @@
 
        ** Setup **: This phase puts the the test infrastructure in place. 
                     JUnit provides class level setup (@BeforeAll) and method level setup (@BeforeEach). 
-                    Generally, heavy objects like databse comnections are created in class level setup while lightweight objects like test objects are reset in the method level setup.<br>
-       ** Test Executio ** n: In this phase, the test execution and assertion happen. The execution result will signify a success or failure.<br>
-       ** Cleanup **: This phase is used to cleanup the test infrastructure setup in the first phase. Just like setup, teardown also happen at class level (@AfterAll) and method level (@AfterEach).<br>
+                    Generally, heavy objects like databse comnections are created in class level setup while lightweight objects like test objects are reset in the method level setup.
+       ** Test Executio ** n: In this phase, the test execution and assertion happen. The execution result will signify a success or failure.
+       ** Cleanup **: This phase is used to cleanup the test infrastructure setup in the first phase. Just like setup, teardown also happen at class level (@AfterAll) and method level (@AfterEach).
