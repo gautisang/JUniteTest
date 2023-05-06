@@ -17,7 +17,7 @@
 
 **Note** :<br>  
 ```diff 
-@@  1. By default, JUnit will create a `new Test class instance` for each test method. This provides a clean separation of state between tests.@@ <br>
+@@  1. By default, JUnit will create a `new Test class instance` for each test method. This provides a clean separation of state between tests.@@
 +   2. @Disbaled("Message")  Annotation can be use to disable the test case to run but it will show in the test report.
 ```  
 
