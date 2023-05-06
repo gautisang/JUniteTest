@@ -21,4 +21,8 @@
 +   2. @Disbaled("Message")  Annotation can be use to disable the test case to run but it will show in the test report.
 ```  
 
-3. We can pass parameters to the test method using **@ParameterizedTest** annotation.
+3. 
+   a. We can pass parameters to the test method using **@ParameterizedTest** annotation.
+   b. To provide different variation for input parameters, use **@MethodSource** annotation.
+      Need to pass the name of the method that will provide the input parameters. Method needs to be static
+      **@MethodSource("integerSubtractionInputParameters")**
