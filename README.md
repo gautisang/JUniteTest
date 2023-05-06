@@ -21,4 +21,4 @@
 +   2. @Disbaled("Message")  Annotation can be use to disable the test case to run but it will show in the test report.
 ```  
 
-3. We can pass parameters to teh test method using ```+ diff**@ParameterizedTest**``` annotation.
+3. We can pass parameters to teh test method using ```diff + **@ParameterizedTest**``` annotation.
