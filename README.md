@@ -22,7 +22,7 @@
 ```  
 
 3. 
-   a. We can pass parameters to the test method using **@ParameterizedTest** annotation.
-   b. To provide different variation for input parameters, use **@MethodSource** annotation.
-      Need to pass the name of the method that will provide the input parameters. Method needs to be static
+   a. We can pass parameters to the test method using **@ParameterizedTest** annotation.<br>
+   b. To provide different variation for input parameters, use **@MethodSource** annotation.<br>
+      Need to pass the name of the method that will provide the input parameters. Method needs to be static<br>
       **@MethodSource("integerSubtractionInputParameters")**
