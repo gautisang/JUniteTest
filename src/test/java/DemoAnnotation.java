@@ -13,18 +13,18 @@ public class DemoAnnotation {
 
         // AAA
 
-        // Arrange :  Prepare and Analyze all the needed variables and objects
+        // Arrange (Given) :  Prepare and Analyze all the needed variables and objects
 
         Calculator calculator = new Calculator();
         int dividend=4;
         int divisor=2;
         int expectedResult=2;
 
-        // Act : Actual invoke the method which we need to test
+        // Act (When) : Actual invoke the method which we need to test
 
         int actualResult =  calculator.integerDivision(dividend, divisor);
 
-        // Assert : Validate the return value received from method under test
+        // Assert (Then) : Validate the return value received from method under test
 
         assertEquals(expectedResult, actualResult, "4/2 did not produce 2");
     }
