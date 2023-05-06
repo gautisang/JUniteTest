@@ -25,4 +25,13 @@
    a. We can pass parameters to the test method using **@ParameterizedTest** annotation.<br>
    b. To provide different variation for input parameters, use **@MethodSource** annotation.<br>
       Need to pass the name of the method that will provide the input parameters. Method needs to be static<br>
-      **@MethodSource("integerSubtractionInputParameters")**
+      **@MethodSource("integerSubtractionInputParameters")** : Return stream of arguments<br>
+      ### Example :<br>
+       private static Stream<Arguments> integerSubtractionInputParameters(){
+            return Stream.of(
+                Arguments.of(33,1,32),
+                Arguments.of(24,1,23),
+                Arguments.of(54,1,53)
+            );
+       }
+        
