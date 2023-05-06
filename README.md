@@ -1,4 +1,4 @@
-# JUniteTest
+# JUnitTest
 
 1. #### Sections to write test class logics.<br>
     a. Arrange (Given) :  Prepare and Analyze all the needed variables and objects<br>
