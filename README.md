@@ -21,8 +21,3 @@
 +   2. @Disbaled("Message")  Annotation can be use to disable the test case to run but it will show in the test report.
 ```  
 
-```diff
-- This is a red colored line
-+ This is a green colored line
-@@ This is a purple colored line @@
-```
