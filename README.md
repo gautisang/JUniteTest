@@ -52,3 +52,4 @@
 
         System.out.println("Running : "+testInfo.getTestMethod().get().getName());
         System.out.println("Repetition # : "+repetitionInfo.getCurrentRepetition() +" of " +repetitionInfo.getTotalRepetitions());
+      ![img_1.png](img_1.png)
