@@ -41,3 +41,14 @@
         @ValueSource(strings={"A","B","C"})
 6. **@RepeatedTest(3)** annoptation allows to repeat a test method multiple times.
     We can also pass RepetitionInfo repetitionInfo, TestInfo testInfo object in the methiod to get the information about the running test class.
+      #### Example
+        @DisplayName("Divided By Zero")
+        @RepeatedTest(value=3,name="{displayName}. Repetition {currentRepetition} of {totalRepetitions}")
+        void testIntegerDivision_WhenrDividedZero_ShouldThrowArithmaticException(
+        RepetitionInfo repetitionInfo,
+        TestInfo testInfo
+
+        ) {
+
+        System.out.println("Running : "+testInfo.getTestMethod().get().getName());
+        System.out.println("Repetition # : "+repetitionInfo.getCurrentRepetition() +" of " +repetitionInfo.getTotalRepetitions());
