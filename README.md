@@ -36,3 +36,8 @@
             );
        }
 4. We can pass the Source as csv file as well using **@CsvFileSource(resources="Filepath")**
+5. To pass a single parameter, we can use @**@ValueSource** annotation which take array of values as a Parameter:
+      ### Example
+        @ValueSource(strings={"A","B","C"})
+6. **@RepeatedTest(3)** annoptation allows to repeat a test method multiple times.
+    We can also pass RepetitionInfo repetitionInfo, TestInfo testInfo object in the methiod to get the information about the running test class.
