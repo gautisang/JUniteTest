@@ -26,6 +26,7 @@
    b. To provide different variation for input parameters, use **@MethodSource** annotation.<br>
       Need to pass the name of the method that will provide the input parameters. Method needs to be static<br>
       **@MethodSource("integerSubtractionInputParameters")** : Return stream of arguments<br>
+      If we don't pass the name in MethodSource, the it will search for the test class method name.<br>
       ### Example :<br>
        private static Stream<Arguments> integerSubtractionInputParameters(){
             return Stream.of(

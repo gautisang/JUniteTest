@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.fail;
 
 @DisplayName("Test Math Opearation")
-public class DemoAnnotation {
+public class DemoAnnotation_2 {
 
     @Test
     @DisplayName("Test 4/2 = 2")

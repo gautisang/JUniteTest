@@ -1,8 +1,9 @@
 import org.junit.jupiter.api.*;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.fail;
 
-public class AssertException {
+public class DemoLifyCycleMethod_3 {
 
     Calculator calculator;
 
@@ -56,25 +57,13 @@ public class AssertException {
         assertEquals(expectedResult, actualResult, "4/2 did not produce 2");
     }
 
-    //@Disabled("Need to work")
+    @Disabled("Need to work")
     @DisplayName("Divided By Zero")
     @Test
     void testIntegerDivision_WhenrDividedZero_ShouldThrowArithmaticException() {
 
         System.out.println("Divided By Zero");
-        //Arrange
-        int dividend=4;
-        int divisor=0;
-        String expectedExceptionMessage="/ by zero";
-
-        //Act && Assert
-      ArithmeticException actualExceptionMessage=  assertThrows(ArithmeticException.class,()->{
-            calculator.integerDivision(dividend, divisor);
-        },"Division by zero should have thrown Arithmatic Exception");
-
-        // Aseert
-        assertEquals(expectedExceptionMessage,actualExceptionMessage.getMessage(),"Unexpected exception");
-
+        fail("Not Implemented");
     }
 
     @DisplayName("Test 33-1=32")
@@ -101,5 +90,4 @@ public class AssertException {
 
 
     }
-
 }
