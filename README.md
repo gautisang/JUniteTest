@@ -53,3 +53,4 @@
         System.out.println("Running : "+testInfo.getTestMethod().get().getName());
         System.out.println("Repetition # : "+repetitionInfo.getCurrentRepetition() +" of " +repetitionInfo.getTotalRepetitions());
       ![img_1.png](img_1.png)
+7. use **@TestMethodOrder(MethodOrderer.Random.class/MethodOrderer.MethodName.class)** annotation for exceuting method in a particular order or random order
